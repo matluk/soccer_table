@@ -1,0 +1,13 @@
+.history {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  gap: 5px 20px;
+}
+
+.title{
+    font-weight: bolder;
+}

@@ -1,0 +1,53 @@
+.football_table {
+  display: flex;
+  background-color: rgba(64, 206, 241, 0.685);
+  flex-direction: column;
+  border: 1px solid black;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.football_table_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.date,
+.time {
+  display: flex;
+  justify-content: center;
+}
+
+.date{
+  margin: 10px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.time {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.button {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.733);
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  justify-content: center;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: all 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

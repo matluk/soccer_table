@@ -1,0 +1,15 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+}
